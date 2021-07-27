@@ -155,12 +155,12 @@ int main(int argc, char** argv)
     }
 
     String savename = argv[1];
-    savename = "_" + savename;
-    savename = argv[4] + savename;
-    savename = "_" + savename;
-    savename = argv[3] + savename;
-    savename = "_" + savename;
-    savename = argv[2] + savename;
+    //savename = "_" + savename;
+    //savename = argv[4] + savename;
+    //savename = "_" + savename;
+    //savename = argv[3] + savename;
+    //savename = "_" + savename;
+    //savename = argv[2] + savename;
     savename = "rotate_" + savename;
     cout << "Save to " << savename << endl;
     imwrite(savename, im_out);
